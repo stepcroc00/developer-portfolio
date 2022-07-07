@@ -31,37 +31,40 @@
 
   <body>
     <!-- Navbar -->
+
     <nav>
-      <h1>JANE DOE</h1>
+      <h1> Stephen Crocker</h1>
       <ul class="navigation">
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
+      <button class = "burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
       </button>
     </nav>
-    
-    <p> 0024 </p>
-
     <!-- Hero Section -->
+    
     <section class="hero" id="about">
       <img
-        src="assets/images/wfh_1.svg"
-        alt="jane-doe"
+        src="assets/images/SCheadshot.jpg"
+        alt="SC-headshot"
+        loading="lazy"
+        class="hero-img"
+      />
+      <img
+        src="assets\images\graduatingPic.jpg"
+        alt="SC-graduating"
         loading="lazy"
         class="hero-img"
       />
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
+          Hi, my name is Stephen Crocker and I am a recent Graduate of Seattle University
+          with a B.S. in Computer Science and a minor in Mathematics. I currently live in 
+          Sacramento, CA and am open to working throughout the west coast.
         </p>
       </div>
     </section>
@@ -70,18 +73,22 @@
     <section class="more-about">
       <h2>More About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        I have taken many revelant courses such as Object Oriented Programming, 
+        Data Structures, Algorithms, among others. Some of my favorites include Databases, 
+        Software As A Service, and Refactoring. Also, I have worked on multiple projects including
+        building a search application full of organizational information and a space lovers website. 
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        nostrum dolor minus, libero delectus praesentium perferendis
+        Futhermore, I competed for the Division 1 Cross Country and Track&Field Program at Seattle
+        University. I specialized in distance events from the 1500m-10km. Running has taught me the value
+        of hard work and dedication as well as felt the comradery of being part of a team and training towards
+        a similair goal.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
+        Lastly, I enjoy baking, watching and playing basketball, and playing games in my free time. My
+        speciality is lemon bars in the kitchen. Sadly, I am a Sacramento Kings Fan, but I have hope for this 
+        upcoming season. Teamfight Tactics, an Auto-Chess strategy game as well as Chess, Catan are currently
+        some of my favorite games.
       </p>
     </section>
 
@@ -92,19 +99,19 @@
       <div class="skills-wrapper">
         <div class="first-set animate__animated animate__pulse">
           <img
-            src="assets/icons/icons8-html-5.svg"
+            src="assets\icons\icons8-python-144.png"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-css3.svg"
+            src="assets\icons\icons8-c++-144.png"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-javascript.svg"
+            src="assets\icons\icons8-c-sharp-logo-144.png"
             alt=""
             loading="lazy"
             class="icon icon-card"
@@ -113,19 +120,19 @@
 
         <div class="second-set animate__animated animate__pulse">
           <img
-            src="assets/icons/icons8-bootstrap.svg"
+            src="assets\icons\icons8-mongodb-144.png"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-react-native.svg"
+            src="assets\icons\icons8-mysql-logo-144.png"
             alt=""
             loading="lazy"
             class="icon icon-card"
           />
           <img
-            src="assets/icons/icons8-git.svg"
+            src="assets\icons\icons8-figma-144.png"
             alt=""
             loading="lazy"
             class="icon icon-card"
@@ -135,38 +142,37 @@
     </section>
 
     <!-- Projects section -->
+
     <section class="projects" id="projects">
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
         <div class="project-container project-card">
           <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
+            src="assets\images\marisPlaceSS.png"
+            alt="capstone-project"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Expense Tracker</h3>
+          <h3 class="project-title">Senior Capstone Project</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A search application to find organizations held in our database. 
+            Technologies used included Python, Kivy, MongoDB, and BeatifulSoup4.  
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="assets\videos\projectsDayDemoVideo.mp4" target="_blank" class="project-link">Check it Out</a>
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
+            src="assets\images\spaceplaceSS.png"
+            alt="space-place"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Netflix Clone</h3>
+          <h3 class="project-title">Space Place Website</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A website built with classmates to help connect space lovers. Technologies used included 
+            Typescript, Javascript, MongoDB, HTML, and CSS.
           </p>
-          <a href="#" target="_blank" class="project-link">Check it Out</a>
+          <a href="http://spaceplace1.azurewebsites.net/#/" target="_blank" class="project-link">Check it Out</a>
         </div>
         <div class="project-container project-card">
           <img
@@ -185,13 +191,13 @@
         </div>
       </div>
     </section>
-
     <!-- Contact section -->
+
     <section class="contact" id="contact">
       <h2>Get In Touch With Me</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylnggw" method="POST">
+          <form action="https://formspree.io/f/xeqnbgdp" method="POST">
             <div class="form-control">
               <label for="name">Name</label>
               <input
@@ -236,52 +242,50 @@
         </div>
       </div>
     </section>
-
+    
     <!-- Social accounts - Fixed to the right -->
+
     <div class="socials">
-      <a href="#" target="_blank"
+      <a href="https://twitter.com/StephenCrocker1" target="_blank"
         ><img
           src="assets/icons/icons8-twitter-circled.gif"
           alt="Twitter"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://www.instagram.com/stephen.crocker/" target="_blank"
         ><img
           src="assets/icons/icons8-instagram.gif"
           alt="Instagram"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://www.instagram.com/stephen.crocker/" target="_blank"
         ><img
           src="assets/icons/icons8-linkedin-circled.gif"
           alt="Linkedin"
           loading="lazy"
           class="socicon"
       /></a>
-      <a href="#" target="_blank"
+      <a href="https://github.com/stepcroc00" target="_blank"
         ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
       /></a>
     </div>
-
+    
     <!-- Scroll to top -->
+
     <i class="scroll-up" id="scroll-up"
       ><img
         src="assets/icons/icons8-upward-arrow.gif"
         class="socicon up-arrow"
-        alt=""
+        alt="scroll-up"
     /></i>
-
+    
     <!-- Footer section -->
+
     <footer>
-      <p class="copy">&copy; Copyright 2021</p>
-      <p class="copy">
-        Built with &#x2661; by
-        <a href="https://twitter.com/koladechris" target="_blank"
-          >Kolade Chris (Ksound)</a
-        >
-      </p>
+      <p class="copy">&copy; Copyright 2022</p>
+      <p class="copy">Built by Stephen Crocker</p>
     </footer>
 
     <!-- Website scripts -->
